@@ -7,8 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<center>
+	<div class="page">
+	<h1>We Are... The Ruby Masters!</h1>
+	<%= link_to "Home", root_path %>
+	<%= link_to "About", about_path %>
+	<%= link_to "Contact", contact_path %>
 
 <%= yield %>
-
+</div> <!-- end of class page -->
+</center>
 </body>
 </html>
