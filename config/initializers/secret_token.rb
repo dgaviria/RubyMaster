@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-RubyMaster::Application.config.secret_token = 'f4f97a1c746af184c7eefdb2bbc5ef1c7944011d98e712306a93a62e886d5bb02492221163b0938dbced96314edfbf2a9cfd9f3d4e73d65f39445adb7137cded'
+RubyMaster::Application.config.secret_token = '534b32d5c354845e51bda89abb85b3af1ea83b1fba1bb98a047c8773aef4e98b3ed95b94abc970ba702d4a23a0a0ebab6a059355efeea9460e84d2a7ea63ff7b'
